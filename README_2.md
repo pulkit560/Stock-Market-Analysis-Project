@@ -1,25 +1,51 @@
-SPY Trading Strategy Using Multiple Linear Regression
+# Stock Market Prediction and Trading Strategy
 
-Overview
-This project demonstrates the development of a trading strategy for SPY (an ETF tracking the S&P 500 index) using multiple linear regression. The model leverages historical data from various stock indices to predict SPY price movements, enabling a signal-based trading strategy.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Data Description](#data-description)
+3. [Setup and Installation](#setup-and-installation)
+4. [Implementation Steps](#implementation-steps)
+5. [Results and Performance](#results-and-performance)
+6. [Evaluation Metrics](#evaluation-metrics)
+7. [Conclusion](#conclusion)
+8. [References](#references)
 
-Key Objectives
+---
 
-Build a predictive model to estimate SPY price changes based on other stock indices' data.
-Evaluate the model's performance using both statistical and practical metrics.
-Compare the profitability of a signal-based strategy with a traditional "buy-and-hold" approach.
+## Project Overview
+This project demonstrates a trading strategy based on a **multiple linear regression model** to predict the SPY stock price using historical data from various global stock markets. The primary objective is to generate actionable signals and evaluate the strategy's profitability against traditional buy-and-hold approaches.
 
-Data Sources
-The project uses historical data from the following stock markets:
+---
 
-ALLOrdinary (AORD)
-Nikkei 225 (Japan)
-Hang Seng Index (HSI)
-DAX Index (Germany)
-CAC40 (France)
-S&P 500 (SP500)
-Dow Jones Industrial Average (DJI)
-NASDAQ Composite
-SPY ETF (S&P 500 tracker)
+## Data Description
+The project uses historical data from the following stock indices:
+- **SPY** (S&P 500 ETF)
+- **SP500** (S&P 500 Index)
+- **NASDAQ** (Nasdaq Composite Index)
+- **DJI** (Dow Jones Industrial Average)
+- **CAC40** (French CAC 40 Index)
+- **DAXI** (German DAX Index)
+- **AORD** (Australian All Ordinaries)
+- **HSI** (Hong Kong Hang Seng Index)
+- **NIKKEI** (Japanese Nikkei 225)
 
+Each dataset contains:
+- Opening and closing prices
+- Adjustments to remove timezone discrepancies
 
+---
+
+## Setup and Installation
+
+### Prerequisites
+Ensure the following libraries are installed:
+- `pandas`
+- `numpy`
+- `statsmodels`
+- `matplotlib`
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-repo/stock-prediction-strategy.git
+   cd stock-prediction-strategy
