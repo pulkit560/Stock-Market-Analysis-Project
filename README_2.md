@@ -1,8 +1,10 @@
 SPY Trading Strategy Using Multiple Linear Regression
+
 Overview
 This project demonstrates the development of a trading strategy for SPY (an ETF tracking the S&P 500 index) using multiple linear regression. The model leverages historical data from various stock indices to predict SPY price movements, enabling a signal-based trading strategy.
 
 Key Objectives
+
 Build a predictive model to estimate SPY price changes based on other stock indices' data.
 Evaluate the model's performance using both statistical and practical metrics.
 Compare the profitability of a signal-based strategy with a traditional "buy-and-hold" approach.
