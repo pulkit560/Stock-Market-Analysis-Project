@@ -44,13 +44,6 @@ Ensure the following libraries are installed:
 - `statsmodels`
 - `matplotlib`
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repo/stock-prediction-strategy.git
-   cd stock-prediction-strategy
-
-   # Trading Strategy Based on SPY and S&P 500
 ---
 ## Implementation Steps
 
@@ -58,7 +51,7 @@ Ensure the following libraries are installed:
 - Load the datasets `SPY.csv` and `SP500.csv`.
 - Handle missing values using forward fill and remove remaining NaNs.
 - Calculate daily changes in the indices to create features.
-- 
+  
 ### 2. Feature Engineering
 - Create lag variables to capture temporal dependencies.
 - Combine datasets into a single dataframe for analysis.
@@ -68,7 +61,7 @@ Ensure the following libraries are installed:
 
   ### 4. Model Building
 - Build a multiple linear regression model using statsmodels.
-- 
+  
 ### 5. Signal-Based Trading Strategy
 - Generate buy/sell signals based on model predictions.
 - Simulate trading performance and compare with a buy-and-hold strategy.
