@@ -49,3 +49,39 @@ Ensure the following libraries are installed:
    ```bash
    git clone https://github.com/your-repo/stock-prediction-strategy.git
    cd stock-prediction-strategy
+
+   # Trading Strategy Based on SPY and S&P 500
+---
+## Implementation Steps
+
+### 1. Data Preprocessing
+- Load the datasets `SPY.csv` and `SP500.csv`.
+- Handle missing values using forward fill and remove remaining NaNs.
+- Calculate daily changes in the indices to create features.
+- 
+### 2. Feature Engineering
+- Create lag variables to capture temporal dependencies.
+- Combine datasets into a single dataframe for analysis.
+
+### 3. Data Splitting
+- Split the dataset into training and test sets.
+
+  ### 4. Model Building
+- Build a multiple linear regression model using statsmodels.
+- 
+### 5. Signal-Based Trading Strategy
+- Generate buy/sell signals based on model predictions.
+- Simulate trading performance and compare with a buy-and-hold strategy.
+
+---
+## Results
+
+The strategy's cumulative wealth is compared against a buy-and-hold strategy. 
+
+---
+
+## Future Scope
+- Explore additional features for better signal accuracy.
+- Implement advanced forecasting techniques (e.g., ARIMA, LSTM).
+- Automate the entire pipeline for real-time trading.
+
