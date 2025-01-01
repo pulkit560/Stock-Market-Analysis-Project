@@ -1,5 +1,4 @@
 # Stock-Market-Analysis-Project
-# Stock Market Analysis Project
 
 ## Overview
 This project involves analyzing stock market trends and predicting stock prices using regression techniques. By leveraging historical stock data, we aim to identify key factors influencing stock performance and provide actionable insights.
